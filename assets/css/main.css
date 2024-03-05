@@ -1130,8 +1130,189 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .exp-container {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  flex-wrap: wrap;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-content: center; */
+  /* flex-wrap: wrap; */
 }
+
+/* ==========================================================================
+  Technologies & Tools section
+   ========================================================================== */
+   .skill-bar-container {
+		position: relative;
+		width: 100%;
+		border-radius: 4px;
+		background-color: whitesmoke;
+    margin-bottom: 20px;
+	}
+
+	.skill-bar-container .skill-bar {
+		display: block;
+		border-radius: 4px;
+		height: 50px;
+	}
+
+	.skill-bar-container .skill-bar.level10 {
+		width: 10%;
+		background-color: #d7edfa;
+	}
+
+  .skill-bar-container .skill-bar.level15 {
+		width: 15%;
+		background-color: #d7edfa;
+	}
+
+	.skill-bar-container .skill-bar.level20 {
+		width: 20%;
+		background-color: #cce0f6;
+	}
+
+  .skill-bar-container .skill-bar.level25 {
+		width: 25%;
+		background-color: #cce0f6;
+	}
+
+	.skill-bar-container .skill-bar.level30 {
+		width: 30%;
+		background-color: #c8e7f8;
+	}
+
+  .skill-bar-container .skill-bar.level35 {
+		width: 35%;
+		background-color: #c8e7f8;
+	}
+
+	.skill-bar-container .skill-bar.level40 {
+		width: 40%;
+		background-color: #b3daf5;
+	}
+
+  .skill-bar-container .skill-bar.level45 {
+		width: 45%;
+		background-color: #b3daf5;
+	}
+
+
+	.skill-bar-container .skill-bar.level50 {
+		width: 50%;
+		background-color: #b9e0f7;
+	}
+
+  .skill-bar-container .skill-bar.level55 {
+		width: 55%;
+		background-color: #b9e0f7;
+	}
+
+	.skill-bar-container .skill-bar.level60 {
+		width: 60%;
+		background-color: #a9d9f5;
+	}
+
+  .skill-bar-container .skill-bar.level65 {
+		width: 65%;
+		background-color: #a9d9f5;
+	}
+
+	.skill-bar-container .skill-bar.level70 {
+		width: 70%;
+		background-color: #9ad3f3;
+	}
+
+  .skill-bar-container .skill-bar.level75 {
+		width: 75%;
+		background-color: #9ad3f3;
+	}
+
+	.skill-bar-container .skill-bar.level80 {
+		width: 80%;
+		background-color: #9acff3;
+	}
+
+  .skill-bar-container .skill-bar.level85 {
+		width: 85%;
+		background-color: #9acff3;
+	}
+
+	.skill-bar-container .skill-bar.level90 {
+		width: 90%;
+		background-color: #81c9f2;
+	}
+
+  .skill-bar-container .skill-bar.level95 {
+		width: 95%;
+		background-color: #81c9f2;
+	}
+
+	.skill-bar-container .skill-bar.level100 {
+		width: 100%;
+		background-color: #6bbff0;
+	}
+
+	.skill-bar-container .skill-name-container {
+		position: absolute;
+		top: 12px;
+		left: 15px;
+    line-height: 1;
+	}
+
+	.skill-bar-container .skill-percent {
+		position: absolute;
+		top: 13px;
+		right: 15px;
+		color: #999;
+	}
+/* Technologies & Tools section */
+
+#proffessional-achievements {
+  background: #f2f2f2;
+}
+
+#proffessional-achievements .mix {
+  padding: 10px;
+}
+
+#proffessional-achievements .portfolio-item .shot-item {
+  margin: 0px;
+}
+
+.proffessional-achievent-container{
+  background-color: #fff;
+  border-radius: 4px;
+  width: 100%;
+  border: 1px solid #d1d1d1;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+.proffessional-achievent-heade{
+  font-weight: bold;
+  font-size: 18px;
+  color: #000;
+  opacity: 0.8;
+}
+.proffessional-achievent-description{
+  font-style: italic;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.personal-achievent-container{
+  background-color: #eee;
+  border-radius: 4px;
+  width: 100%;
+  border: 1px solid #d1d1d1;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+.personal-achievent-heade{
+  font-weight: bold;
+  font-size: 18px;
+  color: #000;
+  opacity: 0.8;
+}
+.personal-achievent-description{
+  font-style: italic;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
