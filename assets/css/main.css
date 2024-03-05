@@ -691,10 +691,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   .slicknav_menu {
     display: block;
   }
-  .slicknav_nav .active a {
-    background: #E91E63;
-    color: #fff;
-  }
+
   .slicknav_nav a:hover,
   .slicknav_nav a:focus,
   .slicknav_nav .active {
@@ -777,21 +774,10 @@ a.back-to-top:hover, a.back-to-top:focus {
 /* ==========================================================================
   Portfolio Section
    ========================================================================== */
-#portfolios {
+#projects, #achievements {
   background: #f2f2f2;
 }
 
-#portfolios .mix {
-  padding: 10px;
-}
-
-#portfolios .portfolio-item .shot-item {
-  margin: 0px;
-}
-
-#portfolio .mix {
-  display: none;
-}
 
 .controls {
   text-align: center;
@@ -1314,5 +1300,36 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   font-style: italic;
   font-size: 16px;
   margin-left: 20px;
+}
+.download-button{
+  border: #00b4d9 1px solid;
+  border-radius: 4px;
+  margin-top: 30px;
+  background-color: #21cff3;
+  color: #000;
+  padding: 10px 20px;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.download-button:hover{
+  background-color: #00b4d9;
+  color: #fff;
+  transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+}
+
+
+.download-button a{
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.download-button a div{
+  margin-top: 2px;
+  float: left;
 }
 
