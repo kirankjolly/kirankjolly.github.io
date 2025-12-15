@@ -1307,7 +1307,6 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   margin-top: 30px;
   background-color: #21cff3;
   color: #000;
-  padding: 10px 20px;
   width: 150px;
   text-align: center;
   cursor: pointer;
@@ -1326,6 +1325,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   color: #fff;
   font-size: 18px;
   font-weight: bold;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
 }
 
 .download-button a div{
